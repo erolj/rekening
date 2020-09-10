@@ -1,0 +1,19 @@
+bank:
+-
+  Nama: "Bank Rakyat Indonesia"
+  Singkat: "BRI"
+  Norek: "5172-01-000239-50-0"
+  Pemilik: "Erol Joudy Tooy"
+  Public: true
+-
+  Nama: "Bank Negara Indonesia"
+  Singkat: "BNI"
+  Norek: "026-212-9913"
+  Pemilik: "Erol Joudy Tooy"
+  Public: true
+-
+  Nama: "Bank Mandiri"
+  Singkat: "Mandiri"
+  Norek: "150-00-1565523-4"
+  Pemilik: "Erol Joudy Tooy"
+  Public: true

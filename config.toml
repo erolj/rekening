@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Kartu Rekening"
+assetDir = "assets"
+publishDir = "public"
+
+[params]
+description = "Self-taught Web Developer"

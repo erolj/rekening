@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <section class="container">
+    <h1>{{ .Title }}</h1>
+    <div class="grid__row -row-3">
+      {{ range .Site.Data.rekening.bank }}
+        {{ if "Public" }}
+        <div class="column">
+          <article class="card flex__column">
+            <header class="card__header">
+              <h2>{{ .Nama }} ({{ .Singkat }})</h2>
+              <h3>{{ .Norek }}</h3>
+            </header>
+            <p class="card__content">
+              Atas Nama: {{ .Pemilik }}
+            </p>
+          </article>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
