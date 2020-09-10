@@ -4,19 +4,19 @@
     <div class="grid__row -row-3">
       {{ range .Site.Data.rekening.bank }}
         {{ if "Public" }}
-        <div class="column">
-          <article class="card flex__column mb--2">
+        <div class="column bg--dark rounded--10">
+          <article class="card flex__column pa--2 mb--2">
             <header class="card__header">
               <h2>{{ .Nama }} ({{ .Singkat }})</h2>
             </header>
             <div class="card__content">
               <div class="py--1" data-value="{{ .Number }}">
                 <strong>Rekening:</strong><br>
-                <span class="font--md">{{ .Norek }}</span>
+                <span>{{ .Norek }}</span>
               </div>
               <div class="py--1">
                 <strong>Atas Nama:</strong><br>
-                <span class="font--md">{{ .Pemilik }}</span>
+                <span>{{ .Pemilik }}</span>
               </div>
             </div>
           </article>
