@@ -1,11 +1,11 @@
 {{ define "main" }}
   <section class="container">
     <h1 class="txt--center">{{ .Title | upper }}</h1>
-    <div class="grid__row -row-3">
+    <div class="grid">
       {{ range .Site.Data.rekening.bank }}
         {{ if "Public" }}
         <div class="column bg--dark rounded--10">
-          <article class="card flex__column pa--2 mb--2">
+          <article class="card flex__column pa--2 mb--1">
             <header class="card__header">
               <h2>{{ .Nama }} ({{ .Singkat }})</h2>
             </header>
